@@ -38,9 +38,3 @@ Antes de começar, você precisa ter instalado:
 - Git
 
 ---
-
-## 🔧 Executando o Back-end (API)
-
-1. Acesse a pasta da API:
-```bash
-cd api
