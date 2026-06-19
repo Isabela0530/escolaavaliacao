@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel Professor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="topbar">
+        <h2>Painel do Professor</h2>
+
+        <button onclick="logout()">
+            Sair
+        </button>
+    </div>
+
+    <div class="container">
+
+        <h1 class="titulo">Turmas</h1>
+
+        <input
+            type="text"
+            id="nomeTurma"
+            placeholder="Nome da turma"
+        >
+
+        <button onclick="cadastrarTurma()">
+            Cadastrar Turma
+        </button>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaTurmas">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <script src="professor.js"></script>
+
+</body>
+</html>

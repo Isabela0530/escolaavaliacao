@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #efefef;
+    min-height: 100vh;
+}
+
+.login-container {
+    width: 500px;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    padding: 40px;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.login-container h1 {
+    color: #4a4a4a;
+    margin-bottom: 35px;
+    font-size: 42px;
+}
+
+.login-container input {
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.login-container button {
+    background: #1e88e5;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 85%;
+    max-width: 320px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-container button:hover {
+    background: #1565c0;
+    transform: translateY(-2px);
+}
+
+
+.topbar {
+    background: #2196f3;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.topbar h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.topbar button {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.topbar button:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.btn-cadastrar {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    cursor: pointer;
+    font-size: 17px;
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 0px; 
+}
+
+.btn-cadastrar:hover {
+    background: #1565c0;
+}
+
+.titulo {
+    clear: both;
+    margin-bottom: 25px;
+    font-size: 18px; 
+    color: #000;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: transparent; 
+}
+
+table th {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #c7c7c7; 
+    color: #333;
+    font-weight: normal;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #c7c7c7; 
+    color: #000;
+}
+
+table th:first-child, 
+table td:first-child {
+    text-align: center;
+    width: 100px;
+}
+
+table th:last-child {
+    text-align: left;
+}
+
+.btn-excluir,
+.btn-visualizar {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 0px; 
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-excluir {
+    background: #ff7b7b;
+    color: white;
+    margin-right: 8px; 
+}
+
+.btn-excluir:hover {
+    background: #e65f5f;
+}
+
+.btn-visualizar {
+    background: #00d084;
+    color: black;
+}
+
+.btn-visualizar:hover {
+    background: #00b86b;
+}
+
+.btn-salvar {
+    background: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-salvar:hover {
+    background: #1565c0;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .login-container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .btn-cadastrar {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
